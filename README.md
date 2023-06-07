@@ -30,20 +30,12 @@
 
 <br>
 
-在合併排序中，每次將數列分為兩個子數列的操作的時間複雜度是O(1)。<br>
-而合併兩個有序的子數列的操作時間複雜度是O(n)，其中n是兩個子數列的總長度。<br>
-
-在遞迴地對子數列進行排序時，每一層遞迴需要處理的數量是原始數列大小的一半。<br>
-因此，遞迴的深度是log₂n，其中n是數列的大小。<br>
-
-因為每一層遞迴的操作時間複雜度是O(n)，所以整個合併排序的時間複雜度可以表示為O(nlogn)。<br>
-合併排序的時間複雜度為O(nlogn)，在平均和最壞情況下都相同。<br>
-儘管合併排序的時間複雜度比起氣泡排序和插入排序要高，但合併排序是一種穩定的排序算法，且適用於處理大型數據集。
+堆積排序的時間複雜度為O(nlogn)，而且是一種不穩定的排序算法。
 
 ---
 
 ## 示意圖:
-<img src="https://drive.google.com/uc?id=1Q5yz2iQopRu0F9Nr_ow7c3vjoqwIqfmcc" height="70%" width="70%"/>
+<img src="https://drive.google.com/uc?id=1V-epn2ATpgtX2zZF5uIsn80KkxtL20v2" height="70%" width="70%"/>
 
 > 圖片來源：[iThome鐵人賽(Frank) - 演算法 堆積排序法 Heap Sort](https://ithelp.ithome.com.tw/articles/10279239) 
 
